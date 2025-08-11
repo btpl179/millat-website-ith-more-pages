@@ -31,6 +31,12 @@ import OccupationalHealthSafety from './pages/compliance/OccupationalHealthSafet
 import MaterialComplianceCertifications from './pages/compliance/MaterialComplianceCertifications';
 import SafetyQualityStandards from './pages/compliance/SafetyQualityStandards';
 import IndustryApprovals from './pages/compliance/IndustryApprovals';
+import ManufacturingFacilities from './pages/ManufacturingFacilities';
+import ProductionProcesses from './pages/ProductionProcesses';
+import QualityControlTesting from './pages/QualityControlTesting';
+import InHouseToolingMoulding from './pages/InHouseToolingMoulding';
+import MaterialCompounding from './pages/MaterialCompounding';
+import RDInnovation from './pages/RDInnovation';
 import Contact from './pages/Contact';
 import './App.css';
 
@@ -69,6 +75,12 @@ function App() {
               <Route path="/compliance/material-compliance-certifications" element={<PageTransition><MaterialComplianceCertifications /></PageTransition>} />
               <Route path="/compliance/safety-quality-standards" element={<PageTransition><SafetyQualityStandards /></PageTransition>} />
               <Route path="/compliance/industry-approvals" element={<PageTransition><IndustryApprovals /></PageTransition>} />
+              <Route path="/manufacturing-facilities" element={<PageTransition><ManufacturingFacilities /></PageTransition>} />
+              <Route path="/production-processes" element={<PageTransition><ProductionProcesses /></PageTransition>} />
+              <Route path="/quality-control-testing" element={<PageTransition><QualityControlTesting /></PageTransition>} />
+              <Route path="/in-house-tooling-moulding" element={<PageTransition><InHouseToolingMoulding /></PageTransition>} />
+              <Route path="/material-compounding" element={<PageTransition><MaterialCompounding /></PageTransition>} />
+              <Route path="/rd-innovation" element={<PageTransition><RDInnovation /></PageTransition>} />
               <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
               <Route path="/get-in-touch" element={<PageTransition><Contact /></PageTransition>} />
             </Routes>
